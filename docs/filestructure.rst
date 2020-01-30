@@ -202,7 +202,7 @@ Open the created file "View1.php" in your editor and add the following lines::
   <?php
   namespace MyProject\Views;
 
-  class View1 extends \atk4\data\View {
+  class View1 extends \atk4\ui\View {
       function init() {
           parent::init();
 
